@@ -1,7 +1,7 @@
 import * as React from 'react';
 import { Dimensions, Text, View, StyleSheet, Image, FlatList } from 'react-native';
 
-import { getAllStats } from '../assets/scripts/ProductListApi';
+import { getAllStats } from '../assets/scripts/productListApi';
 
 function Item({ item }) {
   return (

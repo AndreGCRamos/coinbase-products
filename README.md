@@ -39,6 +39,12 @@ To run the tests you only need to run
 yarn run test
 ```
 
+In case you need to update a screenshot, do
+
+```
+yarn run test -u
+```
+
 ### Coding style tests
 
 At the moment there is no linter installed
