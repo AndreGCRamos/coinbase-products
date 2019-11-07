@@ -22,17 +22,22 @@
     "jest": "^24.9.0",
     "jest-environment-enzyme": "^7.1.2",
     "jest-enzyme": "^7.1.2",
-    "react-test-renderer": "^16.11.0"
+    "jsdom": "^15.2.1",
+    "react-native-mock-render": "^0.1.6",
+    "react-test-renderer": "16.8.3"
   },
   "private": true,
   "jest": {
+    "preset": "react-native",
     "setupFilesAfterEnv": [
       "jest-enzyme"
+    ],
+    "setupFiles": [
+      "<rootDir>/jestSetup.js"
     ],
     "testEnvironment": "enzyme",
     "testEnvironmentOptions": {
       "enzymeAdapter": "react16"
-    },
-    "preset": "react-native"
+    }
   }
 }

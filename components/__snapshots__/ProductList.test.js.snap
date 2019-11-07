@@ -1,0 +1,603 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ProductList /> displays multiple items 1`] = `
+Array [
+  <Item
+    item={
+      Object {
+        "high": "0.27933000",
+        "id": "LTC-BTC",
+        "last": "0.27020300",
+        "low": "0.26416200",
+        "open": "0.26416200",
+        "volume": "883990.82612000",
+        "volume_30day": "57077184.26522",
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "backgroundColor": "rgb(255, 255, 255)",
+          "marginBottom": 24,
+          "padding": 10,
+        }
+      }
+    >
+      <View
+        style={
+          Object {
+            "backgroundColor": "rgb(255, 255, 255)",
+            "marginBottom": 24,
+            "padding": 10,
+          }
+        }
+      >
+        <Text
+          style={
+            Object {
+              "fontSize": 14,
+              "fontWeight": "bold",
+              "textAlign": "center",
+            }
+          }
+        >
+          <Text
+            style={
+              Object {
+                "fontSize": 14,
+                "fontWeight": "bold",
+                "textAlign": "center",
+              }
+            }
+          >
+            LTC-BTC
+          </Text>
+        </Text>
+        <Text>
+          <Text>
+            Open: 
+            0.26416200
+          </Text>
+        </Text>
+        <Text>
+          <Text>
+            High: 
+            0.27933000
+          </Text>
+        </Text>
+        <Text>
+          <Text>
+            Low: 
+            0.26416200
+          </Text>
+        </Text>
+        <Text>
+          <Text>
+            Volume: 
+            883990.82612000
+          </Text>
+        </Text>
+      </View>
+    </View>
+  </Item>,
+  <Item
+    item={
+      Object {
+        "high": "0.8786868868",
+        "id": "ZRX-EUR",
+        "last": "44.27020300",
+        "low": "3.4422232",
+        "open": "44.3343434",
+        "volume": "7878987.82612000",
+        "volume_30day": "44444444.333333",
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "backgroundColor": "rgb(255, 255, 255)",
+          "marginBottom": 24,
+          "padding": 10,
+        }
+      }
+    >
+      <View
+        style={
+          Object {
+            "backgroundColor": "rgb(255, 255, 255)",
+            "marginBottom": 24,
+            "padding": 10,
+          }
+        }
+      >
+        <Text
+          style={
+            Object {
+              "fontSize": 14,
+              "fontWeight": "bold",
+              "textAlign": "center",
+            }
+          }
+        >
+          <Text
+            style={
+              Object {
+                "fontSize": 14,
+                "fontWeight": "bold",
+                "textAlign": "center",
+              }
+            }
+          >
+            ZRX-EUR
+          </Text>
+        </Text>
+        <Text>
+          <Text>
+            Open: 
+            44.3343434
+          </Text>
+        </Text>
+        <Text>
+          <Text>
+            High: 
+            0.8786868868
+          </Text>
+        </Text>
+        <Text>
+          <Text>
+            Low: 
+            3.4422232
+          </Text>
+        </Text>
+        <Text>
+          <Text>
+            Volume: 
+            7878987.82612000
+          </Text>
+        </Text>
+      </View>
+    </View>
+  </Item>,
+  <Item
+    item={
+      Object {
+        "high": "0.00688000",
+        "id": "XLM-BTC",
+        "last": "0.00670900",
+        "low": "0.00662900",
+        "open": "0.00674700",
+        "volume": "22839.11587903",
+        "volume_30day": "688557.00971328",
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "backgroundColor": "rgb(255, 255, 255)",
+          "marginBottom": 24,
+          "padding": 10,
+        }
+      }
+    >
+      <View
+        style={
+          Object {
+            "backgroundColor": "rgb(255, 255, 255)",
+            "marginBottom": 24,
+            "padding": 10,
+          }
+        }
+      >
+        <Text
+          style={
+            Object {
+              "fontSize": 14,
+              "fontWeight": "bold",
+              "textAlign": "center",
+            }
+          }
+        >
+          <Text
+            style={
+              Object {
+                "fontSize": 14,
+                "fontWeight": "bold",
+                "textAlign": "center",
+              }
+            }
+          >
+            XLM-BTC
+          </Text>
+        </Text>
+        <Text>
+          <Text>
+            Open: 
+            0.00674700
+          </Text>
+        </Text>
+        <Text>
+          <Text>
+            High: 
+            0.00688000
+          </Text>
+        </Text>
+        <Text>
+          <Text>
+            Low: 
+            0.00662900
+          </Text>
+        </Text>
+        <Text>
+          <Text>
+            Volume: 
+            22839.11587903
+          </Text>
+        </Text>
+      </View>
+    </View>
+  </Item>,
+]
+`;
+
+exports[`<ProductList /> renders 1`] = `
+<ProductList>
+  <View
+    style={
+      Object {
+        "width": 720,
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "width": 720,
+        }
+      }
+    >
+      <FlatList
+        data={
+          Array [
+            Object {
+              "high": "0.27933000",
+              "id": "BTC-XXX",
+              "last": "0.27020300",
+              "low": "0.26416200",
+              "open": "0.26416200",
+              "volume": "883990.82612000",
+              "volume_30day": "57077184.26522",
+            },
+          ]
+        }
+        disableVirtualization={false}
+        horizontal={false}
+        initialNumToRender={10}
+        keyExtractor={[Function]}
+        maxToRenderPerBatch={10}
+        numColumns={1}
+        onEndReachedThreshold={2}
+        removeClippedSubviews={false}
+        renderItem={[Function]}
+        scrollEventThrottle={50}
+        updateCellsBatchingPeriod={50}
+        windowSize={21}
+      >
+        <VirtualizedList
+          data={
+            Array [
+              Object {
+                "high": "0.27933000",
+                "id": "BTC-XXX",
+                "last": "0.27020300",
+                "low": "0.26416200",
+                "open": "0.26416200",
+                "volume": "883990.82612000",
+                "volume_30day": "57077184.26522",
+              },
+            ]
+          }
+          disableVirtualization={false}
+          getItem={[Function]}
+          getItemCount={[Function]}
+          horizontal={false}
+          initialNumToRender={10}
+          keyExtractor={[Function]}
+          maxToRenderPerBatch={10}
+          numColumns={1}
+          onEndReachedThreshold={2}
+          removeClippedSubviews={false}
+          renderItem={[Function]}
+          scrollEventThrottle={50}
+          updateCellsBatchingPeriod={50}
+          viewabilityConfigCallbackPairs={Array []}
+          windowSize={21}
+        >
+          <ScrollViewMock
+            data={
+              Array [
+                Object {
+                  "high": "0.27933000",
+                  "id": "BTC-XXX",
+                  "last": "0.27020300",
+                  "low": "0.26416200",
+                  "open": "0.26416200",
+                  "volume": "883990.82612000",
+                  "volume_30day": "57077184.26522",
+                },
+              ]
+            }
+            disableVirtualization={false}
+            getItem={[Function]}
+            getItemCount={[Function]}
+            horizontal={false}
+            initialNumToRender={10}
+            keyExtractor={[Function]}
+            maxToRenderPerBatch={10}
+            numColumns={1}
+            onContentSizeChange={[Function]}
+            onEndReachedThreshold={2}
+            onLayout={[Function]}
+            onMomentumScrollEnd={[Function]}
+            onScroll={[Function]}
+            onScrollBeginDrag={[Function]}
+            onScrollEndDrag={[Function]}
+            removeClippedSubviews={false}
+            renderItem={[Function]}
+            scrollEventThrottle={50}
+            stickyHeaderIndices={Array []}
+            updateCellsBatchingPeriod={50}
+            viewabilityConfigCallbackPairs={Array []}
+            windowSize={21}
+          >
+            <_class
+              data={
+                Array [
+                  Object {
+                    "high": "0.27933000",
+                    "id": "BTC-XXX",
+                    "last": "0.27020300",
+                    "low": "0.26416200",
+                    "open": "0.26416200",
+                    "volume": "883990.82612000",
+                    "volume_30day": "57077184.26522",
+                  },
+                ]
+              }
+              disableVirtualization={false}
+              getItem={[Function]}
+              getItemCount={[Function]}
+              horizontal={false}
+              initialNumToRender={10}
+              keyExtractor={[Function]}
+              maxToRenderPerBatch={10}
+              numColumns={1}
+              onContentSizeChange={[Function]}
+              onEndReachedThreshold={2}
+              onLayout={[Function]}
+              onMomentumScrollEnd={[Function]}
+              onScroll={[Function]}
+              onScrollBeginDrag={[Function]}
+              onScrollEndDrag={[Function]}
+              removeClippedSubviews={false}
+              renderItem={[Function]}
+              scrollEventThrottle={50}
+              stickyHeaderIndices={Array []}
+              updateCellsBatchingPeriod={50}
+              viewabilityConfigCallbackPairs={Array []}
+              windowSize={21}
+            >
+              <RCTScrollView
+                data={
+                  Array [
+                    Object {
+                      "high": "0.27933000",
+                      "id": "BTC-XXX",
+                      "last": "0.27020300",
+                      "low": "0.26416200",
+                      "open": "0.26416200",
+                      "volume": "883990.82612000",
+                      "volume_30day": "57077184.26522",
+                    },
+                  ]
+                }
+                disableVirtualization={false}
+                getItem={[Function]}
+                getItemCount={[Function]}
+                horizontal={false}
+                initialNumToRender={10}
+                keyExtractor={[Function]}
+                maxToRenderPerBatch={10}
+                numColumns={1}
+                onContentSizeChange={[Function]}
+                onEndReachedThreshold={2}
+                onLayout={[Function]}
+                onMomentumScrollEnd={[Function]}
+                onScroll={[Function]}
+                onScrollBeginDrag={[Function]}
+                onScrollEndDrag={[Function]}
+                removeClippedSubviews={false}
+                renderItem={[Function]}
+                scrollEventThrottle={50}
+                stickyHeaderIndices={Array []}
+                updateCellsBatchingPeriod={50}
+                viewabilityConfigCallbackPairs={Array []}
+                windowSize={21}
+              >
+                <View>
+                  <View>
+                    <CellRenderer
+                      cellKey="BTC-XXX"
+                      fillRateHelper={
+                        FillRateHelper {
+                          "_anyBlankStartTime": null,
+                          "_enabled": false,
+                          "_getFrameMetrics": [Function],
+                          "_info": Info {
+                            "any_blank_count": 0,
+                            "any_blank_ms": 0,
+                            "any_blank_speed_sum": 0,
+                            "mostly_blank_count": 0,
+                            "mostly_blank_ms": 0,
+                            "pixels_blank": 0,
+                            "pixels_sampled": 0,
+                            "pixels_scrolled": 0,
+                            "sample_count": 0,
+                            "total_time_spent": 0,
+                          },
+                          "_mostlyBlankStartTime": null,
+                          "_samplesStartTime": null,
+                        }
+                      }
+                      horizontal={false}
+                      index={0}
+                      inversionStyle={null}
+                      item={
+                        Object {
+                          "high": "0.27933000",
+                          "id": "BTC-XXX",
+                          "last": "0.27020300",
+                          "low": "0.26416200",
+                          "open": "0.26416200",
+                          "volume": "883990.82612000",
+                          "volume_30day": "57077184.26522",
+                        }
+                      }
+                      key="BTC-XXX"
+                      onLayout={[Function]}
+                      onUnmount={[Function]}
+                      onUpdateSeparators={[Function]}
+                      parentProps={
+                        Object {
+                          "data": Array [
+                            Object {
+                              "high": "0.27933000",
+                              "id": "BTC-XXX",
+                              "last": "0.27020300",
+                              "low": "0.26416200",
+                              "open": "0.26416200",
+                              "volume": "883990.82612000",
+                              "volume_30day": "57077184.26522",
+                            },
+                          ],
+                          "disableVirtualization": false,
+                          "getItem": [Function],
+                          "getItemCount": [Function],
+                          "horizontal": false,
+                          "initialNumToRender": 10,
+                          "keyExtractor": [Function],
+                          "maxToRenderPerBatch": 10,
+                          "numColumns": 1,
+                          "onEndReachedThreshold": 2,
+                          "removeClippedSubviews": false,
+                          "renderItem": [Function],
+                          "scrollEventThrottle": 50,
+                          "updateCellsBatchingPeriod": 50,
+                          "viewabilityConfigCallbackPairs": Array [],
+                          "windowSize": 21,
+                        }
+                      }
+                    >
+                      <View
+                        onLayout={[Function]}
+                        style={null}
+                      >
+                        <View
+                          onLayout={[Function]}
+                          style={null}
+                        >
+                          <Item
+                            item={
+                              Object {
+                                "high": "0.27933000",
+                                "id": "BTC-XXX",
+                                "last": "0.27020300",
+                                "low": "0.26416200",
+                                "open": "0.26416200",
+                                "volume": "883990.82612000",
+                                "volume_30day": "57077184.26522",
+                              }
+                            }
+                          >
+                            <View
+                              style={
+                                Object {
+                                  "backgroundColor": "rgb(255, 255, 255)",
+                                  "marginBottom": 24,
+                                  "padding": 10,
+                                }
+                              }
+                            >
+                              <View
+                                style={
+                                  Object {
+                                    "backgroundColor": "rgb(255, 255, 255)",
+                                    "marginBottom": 24,
+                                    "padding": 10,
+                                  }
+                                }
+                              >
+                                <Text
+                                  style={
+                                    Object {
+                                      "fontSize": 14,
+                                      "fontWeight": "bold",
+                                      "textAlign": "center",
+                                    }
+                                  }
+                                >
+                                  <Text
+                                    style={
+                                      Object {
+                                        "fontSize": 14,
+                                        "fontWeight": "bold",
+                                        "textAlign": "center",
+                                      }
+                                    }
+                                  >
+                                    BTC-XXX
+                                  </Text>
+                                </Text>
+                                <Text>
+                                  <Text>
+                                    Open: 
+                                    0.26416200
+                                  </Text>
+                                </Text>
+                                <Text>
+                                  <Text>
+                                    High: 
+                                    0.27933000
+                                  </Text>
+                                </Text>
+                                <Text>
+                                  <Text>
+                                    Low: 
+                                    0.26416200
+                                  </Text>
+                                </Text>
+                                <Text>
+                                  <Text>
+                                    Volume: 
+                                    883990.82612000
+                                  </Text>
+                                </Text>
+                              </View>
+                            </View>
+                          </Item>
+                        </View>
+                      </View>
+                    </CellRenderer>
+                  </View>
+                </View>
+              </RCTScrollView>
+            </_class>
+          </ScrollViewMock>
+        </VirtualizedList>
+      </FlatList>
+    </View>
+  </View>
+</ProductList>
+`;
