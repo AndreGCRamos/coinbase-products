@@ -45,6 +45,7 @@ export default class ProductList extends React.Component {
     return (
       <View style={styles.container}>
         <FlatList
+          class="blabla"
           data={this.state.productList}
           renderItem={({ item }) => <Item item={item} />}
           keyExtractor={product => product.id}
