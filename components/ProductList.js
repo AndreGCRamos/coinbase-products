@@ -1,7 +1,7 @@
 import * as React from 'react';
 import { Dimensions, Text, View, StyleSheet, Image, FlatList } from 'react-native';
 
-import { getProductList, getProductStats } from '../assets/scripts/ProductListApi';
+import { getAllStats } from '../assets/scripts/ProductListApi';
 
 function Item({ item }) {
   return (
@@ -24,28 +24,15 @@ export default class ProductList extends React.Component {
   }
 
   componentDidMount() {
-
-    getProductList().then((list) => {
-      let i = 0;
-
-      setInterval(() => {
-        if (i < list.length) {
-          getProductStats(list[i].id).then((stats) => {
-            this.setState(prevState => ({
-              productList: [...prevState.productList, stats]
-            }))
-          });
-          i++;
-        }
-      }, 300);
-    });
+    getAllStats((stats) => {
+      this.setState(prevState => ({ productList: [...prevState.productList, stats] }))
+    })
   }
 
   render() {
     return (
       <View style={styles.container}>
         <FlatList
-          class="blabla"
           data={this.state.productList}
           renderItem={({ item }) => <Item item={item} />}
           keyExtractor={product => product.id}
